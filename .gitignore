@@ -1,0 +1,77 @@
+# -------------------------------------------------------------------
+# Python
+# -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+*.virtualenv
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------------------------------------------------
+# Project-specific
+# -------------------------------------------------------------------
+
+# Local config overrides / secrets
+.env.local
+.env.*
+!*.env.example        # keep example only
+
+# Cached API responses and temp data
+data/
+!data/.gitkeep        # keep folder, ignore contents
+
+# Run outputs
+outputs/
+!outputs/.gitkeep
+
+# Logs
+logs/
+*.log
+*.err
+*.out
+
+# SQLite or other cache DBs
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------------------------------------------------
+# Editors & IDEs
+# -------------------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------------------------------
+# Tests
+# -------------------------------------------------------------------
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.pyre/
